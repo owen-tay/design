@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kulim+Park:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@500&display=swap');
 
 .molten {
   font-family: 'Kulim Park', sans-serif;
@@ -68,8 +68,8 @@ body, html {
   overflow-x: hidden;
 }
 
-#screen3 {
+.screen3 {
 
-  font-family: 'Noto Sans JP', sans-serif;
-  
+  font-family: 'Lora', serif;
+
 }
