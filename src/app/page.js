@@ -6,8 +6,11 @@ import Blob2 from "../../public/blob2.png";
 import Blob3 from "../../public/blob3.png";
 import Blob4 from "../../public/blob4.png";
 import Logo from "../../public/molten.png";
+import Logo2 from "../../public/logo2.svg";
+
 import { FaAngleDown } from "react-icons/fa";
 import Brutalist from "../../public/Brutalist.png";
+
 import Screen3Incon from "../../public/icon.svg";
 import Model from "../../public/model.jpg";
 
@@ -55,6 +58,26 @@ export default function Home() {
           />
         </div>
       </div>
+      <div
+        id="screen2"
+        className="relative offwhite flex pt-5 sm:pt-0 sm:items-center justify-center h-screen w-screen overflow-hidden"
+      >
+        <Image className="w-24 pt-20 sm:pt-0 sm:w-44 absolute  z-20" src={Logo2} />
+
+        <video
+          className=" absolute z-10"
+          src="rendered.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+        />
+
+      </div>
+      <div className="offwhite h-screen">
+
+      </div>
+
       <div id="screen2" className="relative h-screen w-screen bg-orange-500">
         <div className="mx-0 h-5 rounded-2xl"></div>
         <div className="mx-0 bg-black h-1 rounded-2xl"></div>
@@ -104,11 +127,16 @@ export default function Home() {
               Latest streetwear and accessories available now from our store
             </p>
             <div className="mt-10">
-            <button class="rounded-md bg-black">
-    <span class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black bg-green-600 p-4 text-2xl  hover:-translate-y-3 
+              <button class="rounded-md bg-black">
+                <span
+                  class="block -translate-x-2 -translate-y-2 rounded-md border-2 border-black bg-green-600 p-4 text-2xl  hover:-translate-y-3 
     active:translate-x-0 active:translate-y-0
-    transition-all"> Press this </span>
-  </button>
+    transition-all"
+                >
+                  {" "}
+                  Press this{" "}
+                </span>
+              </button>
             </div>
           </div>
           <div className="w-full md:w-1/3 mt-10 lg:mt-0">
