@@ -39,7 +39,22 @@
     transform: translateY(-10px) translateX(10px);
   }
   50% {
-    transform: translateY(-50px) translateX(40px) rotate(4deg);
+    transform: translateY(-30px) translateX(40px) rotate(4deg);
+  }
+}
+
+.blobleft {
+
+  animation: leftblob 8s infinite;
+
+}
+
+@keyframes leftblob {
+  0%, 100% {
+    transform: translateY(-15px) translateX(-15px);
+  }
+  50% {
+    transform: translateY(0px) translateX(-10px) rotate(0deg);
   }
 }
 
@@ -84,6 +99,12 @@ body, html {
 @media (max-width: 640px) {
   .spinvid {
     height: 40vh;
+  }
+}
+
+@media (max-width: 400px) {
+  .spinvid {
+    height: 30vh;
   }
 }
 
