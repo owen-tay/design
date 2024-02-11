@@ -79,7 +79,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="w-screen flex justify-around z-30 bg-transparent h-12 absolute">
+        <div className="w-screen  flex justify-around z-30 bg-transparent offwhite  ">
           <div className="mt-3 ">
             <Image className="w-10" src={Logo3} />
           </div>
