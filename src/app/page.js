@@ -7,8 +7,8 @@ import Blob2 from "../../public/blob2.png";
 import Blob3 from "../../public/blob3.png";
 import Blob4 from "../../public/blob4.png";
 import Logo from "../../public/molten.png";
-import Logo2 from "../../public/logo2.svg";
-import Logo3 from "../../public/logo2.svg";
+import Logo2 from "../../public/Logo2.svg";
+import Logo3 from "../../public/Logo3.svg";
 
 import { FaAngleDown } from "react-icons/fa";
 import Brutalist from "../../public/Brutalist.png";
