@@ -64,7 +64,7 @@ export default function Home() {
           <div className="blob2  max-w-xs  md:max-w-sm lg:max-w-xl ease-in-out absolute top-0 right-0  ">
             <Image src={Blob3} />
           </div>
-          <div className=" absolute max-w-xs  md:max-w-sm lg:max-w-xl top-0  ">
+          <div className="blobleft absolute max-w-xs  md:max-w-sm lg:max-w-xl top-0  ">
             <Image src={Blob2} />
           </div>
           <div className="  w-1/2 sm:w-full blob4 max-w-xs md:max-w-sm lg:max-w-md absolute  bottom-0 right-0 md:right-0 lg:right-42  ">
@@ -114,7 +114,7 @@ export default function Home() {
         </div>
         <div className="offwhite secondspin h-screen  w-screen">
           <div className="container mx-auto p-4 items-center">
-            <div className="flex flex-wrap items-center justify-center mt-32 -mx-4">
+            <div className="flex flex-wrap items-center justify-center mt-0 sm:mt-24 -mx-4">
               <div className="w-full md:w-1/2 px-4">
                 <div className=" p-6">
                   <h2 className="text-5xl font-bold text-black mb-4">
@@ -122,12 +122,12 @@ export default function Home() {
                   </h2>
                   <p className="text-black text-xl mb-4">
                     We offer unparalleled expertise in{" "}
-                    <span className="text-blue-600">business strategy</span>,{" "}
-                    <span className="text-blue-600">
+                    <span className="">business strategy</span>,{" "}
+                    <span className="">
                       digital transformation
                     </span>
                     , and{" "}
-                    <span className="text-blue-600">
+                    <span className="">
                       operational excellence
                     </span>
                     . Our solutions are customized to meet your unique needs,
@@ -154,14 +154,14 @@ export default function Home() {
                   </h2>
                   <p className="text-black  text-xl mb-4">
                     Our team brings deep industry knowledge and experience in{" "}
-                    <span className="text-blue-600">specific sectors</span> to
+                    <span className="">specific sectors</span> to
                     provide actionable insights and solutions. We're committed
                     to your success and offer a range of services to help your
                     business excel.
                   </p>
                   <div className="grid grid-cols-2 gap-4">
                     <div className="text-center">
-                      <p className="text-blue-600 font-bold text-2xl">
+                      <p className=" font-bold text-2xl">
                         Strategy
                       </p>
                       <p className="text-black">
@@ -169,7 +169,7 @@ export default function Home() {
                       </p>
                     </div>
                     <div className="text-center">
-                      <p className="text-blue-600 font-bold text-2xl">
+                      <p className=" font-bold text-2xl">
                         Innovation
                       </p>
                       <p className="text-black">
@@ -188,7 +188,7 @@ export default function Home() {
           <div className="mx-0 bg-black h-1 rounded-2xl"></div>
           <div
             id="nav"
-            className="flex text-2xl justify-evenly font-bold bg-orange-500 pt-5"
+            className="flex text-xl sm:text-2xl justify-evenly font-bold bg-orange-500 pt-5"
           >
             <p onClick={scrollToScreen3}>Owen Taylor</p>
             <p onClick={scrollToScreen3}>Projects</p>
