@@ -73,3 +73,35 @@ body, html {
   font-family: 'Lora', serif;
 
 }
+
+.offwhite {
+  background-color: #e4e4e4;
+}
+
+.spinvid {
+ height: 90vh;
+}
+@media (max-width: 640px) {
+  .spinvid {
+    height: 40vh;
+  }
+}
+
+
+.secondspin {
+
+  background: lightblue url("/bluesphere.png") no-repeat ;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 70vh;
+
+
+}
+
+@media (max-width: 640px) {
+  .secondspin {
+    height:auto;
+  }
+}
