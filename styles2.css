@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Mukta', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #00B5FC;
+}
+
+.container {
+width: 100vw;
+}
+
+.textGradient {
+    background-image: linear-gradient(45deg, #78f3df, #ef76ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.left-column {
+    background: #ffffff;
+    color: #fff;
+    display: flex;
+    position: relative;
+    align-items: center; 
+    justify-content: center; 
+
+}
+
+
+
+.right-column2 {
+    flex: 1;
+    display: flex; 
+    justify-content: space-evenly; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.rightsvg {
+    max-width: 50%; 
+    color: #ffffff;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 1rem;
+    filter: drop-shadow(5px 5px 20px #00000021);
+}
+
+.bold {
+    font-weight: bolder;
+}
+
+.righttext{ 
+    font-size: 2rem;
+}
+
+.leftsvg {
+
+
+    justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+    max-width: 1080px;
+    
+}
+
+.section2 {
+    background-color: #00B5FC;
+    width: 100%;
+
+}
+
+.section2round {
+    height: 4rem;
+    background-color: #00B5FC;
+    border-radius: 50%;
+    margin-bottom: -2rem;
+    width: 100%
+    ;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    color: #00B5FC;
+    background-color: ;
+    
+}
+
+.content {
+    z-index: 2;
+    text-align: center;
+}
+
+.margin {
+padding: 10px;
+     text-align: center;
+}
+
+h1 {
+    font-size: 4rem;
+    line-height: 90%;
+}
+
+.logo {
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1080px;
+    
+}
+
+.follow-up-items {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    padding: 1rem;
+    list-style: none;
+    margin: 0;
+    min-width: 0.5rem;
+}
+
+.follow-up-items li {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2.5rem;
+    text-align: center;
+    color: #00B5FC;
+    font-weight: 500;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+  
+}
+
+.follow-up-items li i {
+    font-size: 4rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: block;
+}
+
+.icongradient {
+    background-image: linear-gradient(45deg, #00B5FC, #ef76ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+
+/* Media Queries */
+@media (max-width: 800px) {
+    .line {
+        display: none;
+    }
+    }
+
+
+/* Media Queries */
+@media (max-width: 1200px) {
+    .follow-up-items {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    h1 {
+        font-size: 3rem;
+        line-height: 90%;
+    }
+
+    .hero {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        color: #00B5FC;
+    }
+}
+
+@media (max-width: 992px) {
+    .follow-up-items {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+
+@media (max-width: 1740px) {
+    .follow-up-items {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+
+    .follow-up-items li {
+        padding: 1rem;
+        font-size: 0.9rem;
+    }
+
+    .follow-up-items li i {
+        font-size: 1.5rem;
+    }
+
+
+}
+
+.news-content {
+    display: flex;
+    flex-direction: row; /* Default to row */
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1740px) {
+    .news-content {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+}
+
+.icon2 {
+    font-size: 4.5rem;   
+}
+
+.newsheaders {
+    font-size: 1.5rem;
+}
+
+.news-card2 {
+    align-items: center;
+    justify-content: center;
+    margin: 10rem;
+    gap: 1rem;
+    padding: 1.2rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    width: 90%;
+    box-shadow: 0 8px 20px rgba(0, 181, 252, 0.5);
+    flex-direction: row;
+    text-align: center;
+    filter: drop-shadow(5px 5px 10px #00000029);
+
+}
+
+.whiteheader {
+    color: #fff !important;
+    font-size: 2rem;
+    text-align: center;
+    
+}
+
+.news-section {
+    border-radius: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 181, 252, 0.1), 0 0 15px rgba(0, 181, 252, 0.05);
+    text-align: center;
+    width: 100%;
+    background-color: #00B5FC;
+    padding-bottom: 3rem;
+    width: 100%;
+    background-color: #00B5FC;
+    padding: 3rem 0;
+    text-align: center;   
+    
+
+}
+
+
+
+.news-header h2 {
+    font-size: 2.5rem;
+    color: #00B5FC;
+    margin-bottom: 1rem;
+}
+
+.news-content {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.news-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    width: 80%;
+    filter: drop-shadow(5px 5px 10px #00000029);
+    
+}
+
+.news-card i {
+    font-size: 2.5rem;
+    color: #ef76ff;
+}
+
+.news-text h3 {
+    font-size: 1.5rem;
+    color: #00B5FC;
+    margin: 0;
+}
+
+.news-text p {
+    font-size: 1rem;
+    color: #00B5FC;
+    margin: 0;
+}
+
+@media (max-width: 1000px) {
+    .news-card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .news-card i {
+        font-size: 2rem;
+    }
+
+    .news-text h3 {
+        font-size: 1.25rem;
+    }
+
+    .news-text p {
+        font-size: 0.9rem;
+    }
+}
+
+/* Hide the second news section on larger screens */
+.second-news {
+    display: none;
+}
+
+/* Display the second news section on smaller screens */
+@media (max-width: 800px) {
+    .second-news {
+        display: block;
+    }
+}
+
+
+@media (max-width: 800px) {
+
+
+    .line {
+        display: block;
+        background-color: #00B5FC;
+        height: 0.5rem;
+        width: 100%;
+    }
+}
+
+.inline-list {
+    list-style-type: circle; /* Keeps the bullet points */
+    display: flex; /* Puts items in a single line */
+    gap: 1rem; /* Adds space between items */
+    padding: 0; /* Removes extra padding */
+    margin: 0; /* Removes extra margin */
+    color: #ffffff;
+    padding: 10px;
+
+}
+
+@media (min-width: 800px) {
+
+    .inline-list {
+        list-style-type: disc; /* Keep bullet points */
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+        font-size: 1.8rem !important;
+        margin: 0rem;
+        line-height: 3px;
+        margin-top: 1.5rem;
+        padding: 10px;
+    }
+
+}
+
+
+.inline-list {
+    list-style-type: disc; /* Keep bullet points */
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    font-size: 1rem;
+    margin: 0rem;
+    line-height: 15px;
+    margin-top: 1.5rem;
+}
+.inline-list li {
+    list-style-position: inside; /* Ensures bullets are visible */
+    display: list-item; /* Retains bullet functionality */
+}
+
+
+.news-section {
+    width: 100%; /* Full width for the background */
+    background-color: #00B5FC; /* Background color */
+    padding: 3rem 0; /* Add padding for spacing */
+    display: flex;
+    justify-content: center; /* Center the content */
+    align-items: center; /* Align content vertically */
+}
+.news-content-wrapper {
+    max-width: 1080px; /* Restrict inner content width */
+    margin: 0 auto; /* Center the content */
+    padding: 0 1rem; /* Add padding for smaller screens */
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+    text-align: center; /* Center-align content */
+}
+
+@media (max-width: 1000px) {
+    .news-content {
+        flex-direction: column; /* Switch to column */
+    }
+}

@@ -16,6 +16,24 @@ import Brutalist from "../../public/Brutalist.png";
 import Screen3Incon from "../../public/icon.svg";
 import Model from "../../public/model.jpg";
 
+import OutwestIcon from "../../public/logo.svg";
+import Outwest from "../../public/outwest.svg";
+import Outwest2 from "../../public/outwest.svg";
+
+
+
+import '/styles2.css'; 
+
+
+
+import { FaNewspaper, FaBell, FaCalendarDay } from "react-icons/fa";
+
+
+
+
+
+
+
 import { FaTwitter } from "react-icons/fa";
 import { FaTumblr } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -54,8 +72,11 @@ export default function Home() {
 <span className=" animate-bounce text-xl text-white">Loading...</span>
 
         </div>
+
       )}
       <main>
+
+     
         <div className="relative molten h-screen w-screen overflow-hidden">
           {" "}
           <div className="blob1  w-1/2 sm:w-full max-w-xs md:max-w-sm lg:max-w-xl ease-in-out absolute max-w-xl bottom-0  ">
@@ -79,6 +100,69 @@ export default function Home() {
             />
           </div>
         </div>
+
+        <div>
+          <div className="left-column" id="screen2">
+            <div className="hero ">
+              <div className="content">
+                <Image className="logo flex justify-center w-full items-center mx-auto " src={OutwestIcon} alt="Logo" />
+                <div className="line"></div>
+                <div className="margin">
+                  <h1>Your <span className="textGradient">Hyper-Local</span> tool for finding out what's on near you.</h1>
+                  <h1> <span className="textGradient">Coming Soon</span></h1>
+                </div>
+                <div className="section2round"></div>
+                <div className="section2 svgpad">
+                  <Image className="leftsvg svgpad mx-auto" src={Outwest2} alt="Logo" />
+                  <ul className="inline-list">
+                    <li>Eating Out</li>
+                    <li>Drinking Venues</li>
+                    <li>Gigs</li>
+                    <li>For Kids</li>
+                    <li>Sports</li>
+                    <li>Fashion</li>
+                    <li>Arts</li>
+                    <li>Community</li>
+                    <li>Hotels</li>
+                    <li>Local Services</li>
+                  </ul>
+                  <div className="news-section">
+                    <div className="news-content-wrapper">
+                      <div className="news-header">
+                        <h2 className="whiteheader">Local News</h2>
+                      </div>
+                      <div className="news-content">
+                        <div className="news-card">
+                        <i class="fa-solid fa-newspaper icongradient"></i>
+                        <div className="news-text">
+                            <h3>Community Events</h3>
+                            <p>Stay informed about upcoming events happening in your area!</p>
+                          </div>
+                        </div>
+                        <div className="news-card">
+                        <i class="fa-solid fa-bell icongradient"></i>
+                        <div className="news-text">
+                            <h3>Breaking Stories</h3>
+                            <p>Catch up on the latest news and updates from your neighborhood.</p>
+                          </div>
+                        </div>
+                        <div className="news-card">
+                        <i class="fa-solid fa-calendar-day icongradient"></i>
+                        <div className="news-text">
+                            <h3>Daily Updates</h3>
+                            <p>Get a daily feed of local news directly to your fingertips.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
         <div className="w-screen  flex justify-around z-30 bg-transparent offwhite  ">
           <div className="mt-3 ">
             <Image className="w-10" src={Logo3} />
@@ -92,10 +176,13 @@ export default function Home() {
               Contact
             </button>
           </div>
+
+          
         </div>
 
+        
+
         <div
-          id="screen2"
           className="relative offwhite flex pt-5 sm:pt-0 sm:items-center justify-center  spinvid w-screen overflow-hidden"
         >
           <Image
